@@ -1,0 +1,23 @@
+program HiddenWords;
+
+uses
+  Forms,
+  uMain in 'uMain.pas' {Form1},
+  uProcess in 'uProcess.pas',
+  uBits in 'uBits.pas',
+  Unit2 in 'Unit2.pas' {Form2},
+  Unit3 in 'Unit3.pas' {Form3},
+  Unit4 in 'Unit4.pas' {Form4};
+
+{$R *.res}
+
+begin
+// создание формы, запус программы
+  Application.Initialize;
+  Application.Title := 'HiddenWords';
+  Application.CreateForm(TForm3, Form3);
+  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TForm2, Form2);
+  Application.CreateForm(TForm4, Form4);
+  Application.Run;
+end.

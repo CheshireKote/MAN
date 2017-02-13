@@ -1,0 +1,173 @@
+object Form4: TForm4
+  Left = 499
+  Top = 84
+  Width = 635
+  Height = 425
+  Caption = 'Hidden Words'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 232
+    Top = 8
+    Width = 148
+    Height = 20
+    Caption = #1052#1077#1085#1102' '#1044#1077#1082#1086#1076#1091#1074#1072#1085#1085#1103
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 48
+    Top = 128
+    Width = 17
+    Height = 13
+    Caption = #8470'1'
+    Visible = False
+  end
+  object Label3: TLabel
+    Left = 48
+    Top = 176
+    Width = 17
+    Height = 13
+    Caption = #8470'2'
+    Visible = False
+  end
+  object Label4: TLabel
+    Left = 48
+    Top = 224
+    Width = 17
+    Height = 13
+    Caption = #8470'3'
+    Visible = False
+  end
+  object Label5: TLabel
+    Left = 48
+    Top = 272
+    Width = 17
+    Height = 13
+    Caption = #8470'4'
+    Visible = False
+  end
+  object Label6: TLabel
+    Left = 40
+    Top = 312
+    Width = 256
+    Height = 13
+    Caption = #1047#1072#1082#1086#1076#1086#1074#1072#1085#1077' '#1087#1086#1074#1110#1076#1086#1084#1083#1077#1085#1085#1103' '#1084#1110#1089#1090#1080#1090#1100#1089#1103' '#1091' '#1079#1086#1073#1088#1072#1078#1077#1085#1085#1110
+  end
+  object BitBtn1: TBitBtn
+    Left = 488
+    Top = 336
+    Width = 129
+    Height = 41
+    Caption = #1044#1077#1082#1086#1076#1091#1074#1072#1085#1085#1103
+    TabOrder = 0
+    OnClick = BitBtn1Click
+  end
+  object ProgressBar1: TProgressBar
+    Left = 304
+    Top = 272
+    Width = 281
+    Height = 25
+    TabOrder = 1
+    Visible = False
+  end
+  object ComboBox1: TComboBox
+    Left = 184
+    Top = 64
+    Width = 241
+    Height = 21
+    ItemHeight = 13
+    TabOrder = 2
+    Text = #1054#1073#1077#1088#1110#1090#1100' '#1082#1110#1083#1100#1082#1110#1089#1090#1100' '#1084#1077#1090#1086#1076#1110#1074' '#1082#1086#1076#1091#1074#1072#1085#1085#1103
+    OnChange = ComboBox1Change
+    Items.Strings = (
+      '1'
+      '2'
+      '3'
+      '4')
+  end
+  object Edit1: TEdit
+    Left = 72
+    Top = 128
+    Width = 185
+    Height = 21
+    TabOrder = 3
+    Text = #1050#1083#1102#1095' '#1082#1086#1076#1091#1074#1072#1085#1085#1103' 1'
+    Visible = False
+  end
+  object Edit2: TEdit
+    Left = 72
+    Top = 176
+    Width = 185
+    Height = 21
+    TabOrder = 4
+    Text = #1050#1083#1102#1095' '#1082#1086#1076#1091#1074#1072#1085#1085#1103' 2'
+    Visible = False
+  end
+  object Edit3: TEdit
+    Left = 72
+    Top = 224
+    Width = 185
+    Height = 21
+    TabOrder = 5
+    Text = #1050#1083#1102#1095' '#1082#1086#1076#1091#1074#1072#1085#1085#1103' 3'
+    Visible = False
+  end
+  object Edit4: TEdit
+    Left = 72
+    Top = 272
+    Width = 185
+    Height = 21
+    TabOrder = 6
+    Text = #1050#1083#1102#1095' '#1082#1086#1076#1091#1074#1072#1085#1085#1103' 4'
+    Visible = False
+  end
+  object CheckBox1: TCheckBox
+    Left = 304
+    Top = 312
+    Width = 17
+    Height = 17
+    Caption = 'CheckBox1'
+    TabOrder = 7
+  end
+  object Button1: TButton
+    Left = 72
+    Top = 336
+    Width = 113
+    Height = 41
+    Caption = #1047#1072#1087#1086#1074#1085#1080#1090#1080' '#1082#1083#1102#1095#1110
+    TabOrder = 8
+    OnClick = Button1Click
+  end
+  object OpenDialog1: TOpenDialog
+    Left = 376
+    Top = 352
+  end
+  object SaveDialog1: TSaveDialog
+    Left = 408
+    Top = 352
+  end
+  object OpenPictureDialog1: TOpenPictureDialog
+    Left = 440
+    Top = 352
+  end
+  object SavePictureDialog1: TSavePictureDialog
+    Left = 344
+    Top = 352
+  end
+  object OpenDialog2: TOpenDialog
+    Left = 304
+    Top = 352
+  end
+end
