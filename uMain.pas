@@ -558,23 +558,7 @@ end;
 end;
 
 procedure TForm1.FormShow(Sender: TObject);
-const
-  A1 = 1;
-  A2 = 1;
-  A3 = 1;
-  A4 = 1;
-  A5 = 1;
-
 begin
-  with Series2 do
-  begin
-    Clear;
-    AddBar(A1, 'Початковий Файл', clRed);
-    AddBar(A2, 'Цезар', clBlue);
-    AddBar(A3, 'RSA', clRed);
-    AddBar(A4, 'Віженер', clPurple);
-    AddBar(A5, 'Ель-Гамаль', clPurple);
-  end;
   ComboBox2.Visible:=false;
   ComboBox3.Visible:=false;
   ComboBox4.Visible:=false;

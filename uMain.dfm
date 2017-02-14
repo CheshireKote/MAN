@@ -389,6 +389,7 @@ object Form1: TForm1
     Title.Text.Strings = (
       #1042#1030#1076#1085#1086#1096#1077#1085#1085#1103' '#1074#1072#1075#1080' '#1087#1086#1095#1072#1090#1082#1086#1074#1086#1075#1086' '#1092#1072#1081#1083#1091' '#1076#1086' '#1082#1110#1085#1094#1077#1074#1086#1075#1086)
     BottomAxis.AxisValuesFormat = 'Text'
+    LeftAxis.LabelStyle = talValue
     TabOrder = 21
     object Series2: TBarSeries
       Marks.ArrowLength = 20
